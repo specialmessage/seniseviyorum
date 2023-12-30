@@ -1,0 +1,54 @@
+
+.tulisan {
+    text-align: center;
+}
+h2 {
+    font-family: Courier, monospace;
+}
+h1 {
+    font-family: Georgia, serif;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    background-image: url('kb.jpg');
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+.apply-button {
+  display: flex;
+  justify-content: center; /* center the element horizontally */
+  margin-top: 50px; /* add spacing from the top */
+}
+.apply-button {
+  padding: 12px 24px; /* add padding around the text */
+  text-decoration: none; /* remove underline for the link */
+  border-radius: 6px; /* add rounded corners for the button */
+}
+
+  *untuk layar device berukuran kecil*/
+@media screen and (min-width:450px){
+    h1 h2 h3 {
+        font-size: 5vw;
+    }
+
+   .apply-button {
+       width: 33%;
+       display: flex;
+       justify-content: center;
+   }
+}
+ 
